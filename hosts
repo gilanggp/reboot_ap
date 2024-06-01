@@ -19,4 +19,4 @@ HS-DIR-R.Tamu ansible_host=10.0.72.250 ansible_user=admin ansible_password=Kusum
 HS-Heliantus ansible_host=10.0.30.55 ansible_user=admin ansible_password=Kusuma83
 
 [ap:vars]
-ANSIBLE_SSH_ARGS=-F /var/lib/jenkins/.ssh/config
+ANSIBLE_SSH_ARGS=-F /home/lily/.ssh/config
