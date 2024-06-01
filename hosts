@@ -17,3 +17,6 @@ HS-HTL-Hibiscus ansible_host=10.0.56.52 ansible_user=admin ansible_password=Kusu
 HS-Lobby-Apel ansible_host=10.0.56.54 ansible_user=admin ansible_password=Kusuma83 
 HS-DIR-R.Tamu ansible_host=10.0.72.250 ansible_user=admin ansible_password=Kusuma83 
 HS-Heliantus ansible_host=10.0.30.55 ansible_user=admin ansible_password=Kusuma83
+
+[ap:vars]
+ANSIBLE_SSH_ARGS=-F /var/lib/jenkins/.ssh/config
