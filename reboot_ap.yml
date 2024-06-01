@@ -1,0 +1,10 @@
+---
+- name: Reboot AP
+  hosts: ap
+  tasks:
+     - name: reboot command
+       command: reboot
+       
+     - name: Display the config
+       ansible.builtin.debug:
+         msg: "Config displayed"
