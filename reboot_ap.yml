@@ -3,7 +3,7 @@
   hosts: ap
   tasks:
      - name: reboot command
-       command: reboot
+       raw: /bin/reboot
        
      - name: Display the config
        ansible.builtin.debug:
